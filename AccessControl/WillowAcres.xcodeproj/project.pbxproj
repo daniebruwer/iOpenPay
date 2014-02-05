@@ -34,8 +34,8 @@
 		738DCA41189ED2F200AE8D7D /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 738DCA3B189ED2F200AE8D7D /* release_notes.md */; };
 		738DCA43189ED48800AE8D7D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 738DCA42189ED48800AE8D7D /* libz.dylib */; };
 		73A85D39189B820D00DAC15C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A85D38189B820D00DAC15C /* MessageUI.framework */; };
+		73C238B918A2F87800AA0A1F /* TDBadgedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C238B818A2F87800AA0A1F /* TDBadgedCell.m */; };
 		73D87897189BACB500182AD8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73D87896189BACB500182AD8 /* Settings.bundle */; };
-		73D8789A189BC14900182AD8 /* TDBadgedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D87899189BC14900182AD8 /* TDBadgedCell.m */; };
 		73D8789C189BC37D00182AD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D8789B189BC37D00182AD8 /* QuartzCore.framework */; };
 		73EC0128189A5F90004D516F /* cogs.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EC0127189A5F90004D516F /* cogs.png */; };
 		73EC012A189A5FA9004D516F /* cogs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EC0129189A5FA9004D516F /* cogs@2x.png */; };
@@ -96,9 +96,9 @@
 		738DCA3E189ED2F200AE8D7D /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		738DCA42189ED48800AE8D7D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		73A85D38189B820D00DAC15C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		73C238B718A2F87800AA0A1F /* TDBadgedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBadgedCell.h; sourceTree = "<group>"; };
+		73C238B818A2F87800AA0A1F /* TDBadgedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBadgedCell.m; sourceTree = "<group>"; };
 		73D87896189BACB500182AD8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		73D87898189BC14900182AD8 /* TDBadgedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDBadgedCell.h; path = "../../TDBadgedCell-master/TDBadgedCell (xcode project)/TDBadgedCell.h"; sourceTree = "<group>"; };
-		73D87899189BC14900182AD8 /* TDBadgedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDBadgedCell.m; path = "../../TDBadgedCell-master/TDBadgedCell (xcode project)/TDBadgedCell.m"; sourceTree = "<group>"; };
 		73D8789B189BC37D00182AD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		73EC0127189A5F90004D516F /* cogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cogs.png; sourceTree = "<group>"; };
 		73EC0129189A5FA9004D516F /* cogs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cogs@2x.png"; sourceTree = "<group>"; };
@@ -146,8 +146,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				73D87898189BC14900182AD8 /* TDBadgedCell.h */,
-				73D87899189BC14900182AD8 /* TDBadgedCell.m */,
+				73C238B718A2F87800AA0A1F /* TDBadgedCell.h */,
+				73C238B818A2F87800AA0A1F /* TDBadgedCell.m */,
 				73563BC21894F9B500D2D852 /* UIWebViewControllerWithActivityIndicator.h */,
 				73563BC31894F9B500D2D852 /* UIWebViewControllerWithActivityIndicator.m */,
 				73563BC41894F9B500D2D852 /* UIWebViewControllerWithActivityIndicator.xib */,
@@ -372,8 +372,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				738DCA33189D235800AE8D7D /* NSString+FontAwesome.m in Sources */,
-				73D8789A189BC14900182AD8 /* TDBadgedCell.m in Sources */,
 				73563BC11894F96500D2D852 /* FacebookViewController.m in Sources */,
+				73C238B918A2F87800AA0A1F /* TDBadgedCell.m in Sources */,
 				738DCA28189D1B5500AE8D7D /* PanicButtonViewController.m in Sources */,
 				73563BC51894F9B500D2D852 /* UIWebViewControllerWithActivityIndicator.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
